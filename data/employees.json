@@ -1,0 +1,47 @@
+[
+  {
+    "employee_id": "EMP001",
+    "name": "Rajesh Kumar",
+    "email": "rajesh.kumar@company.com",
+    "department": "Sales",
+    "designation": "Senior Account Executive",
+    "manager_id": "EMP000",
+    "manager_name": "Sunita Rao"
+  },
+  {
+    "employee_id": "EMP002",
+    "name": "Ananya Sharma",
+    "email": "ananya.sharma@company.com",
+    "department": "Engineering",
+    "designation": "Lead Engineer",
+    "manager_id": "EMP004",
+    "manager_name": "Amit Varma"
+  },
+  {
+    "employee_id": "EMP003",
+    "name": "Vikram Patel",
+    "email": "vikram.patel@company.com",
+    "department": "Sales",
+    "designation": "VP of Business Development",
+    "manager_id": "EMP000",
+    "manager_name": "Sunita Rao"
+  },
+  {
+    "employee_id": "EMP004",
+    "name": "Amit Varma",
+    "email": "amit.varma@company.com",
+    "department": "Engineering",
+    "designation": "Engineering Director",
+    "manager_id": "EMP000",
+    "manager_name": "Sunita Rao"
+  },
+  {
+    "employee_id": "EMP005",
+    "name": "Priya Nair",
+    "email": "priya.nair@company.com",
+    "department": "Marketing",
+    "designation": "Marketing Specialist",
+    "manager_id": "EMP000",
+    "manager_name": "Sunita Rao"
+  }
+]

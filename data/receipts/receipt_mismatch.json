@@ -1,0 +1,16 @@
+{
+  "receipt_id": "RCP-MISMATCH",
+  "expense_id": "EXP-MISMATCH",
+  "receipt_path": "receipts/exp_mismatch.png",
+  "merchant": "Gourmet Bistro",
+  "date": "2026-09-12",
+  "amount": 1800.0,
+  "currency": "INR",
+  "tax_amount": 160.0,
+  "line_items": [
+    {
+      "description": "Dinner Meal Bill",
+      "price": 1640.0
+    }
+  ]
+}

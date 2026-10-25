@@ -1,0 +1,46 @@
+[
+  {
+    "approval_id": "APP-2026-001",
+    "employee_id": "EMP003",
+    "employee_name": "Vikram Patel",
+    "category": "Hotel",
+    "max_approved_amount": 15000.0,
+    "approved_by": "Sunita Rao",
+    "approval_date": "2026-09-01",
+    "reason": "Executive client summit in Mumbai peak season",
+    "status": "APPROVED"
+  },
+  {
+    "approval_id": "APP-2026-002",
+    "employee_id": "EMP001",
+    "employee_name": "Rajesh Kumar",
+    "category": "Flight",
+    "max_approved_amount": 30000.0,
+    "approved_by": "Sunita Rao",
+    "approval_date": "2026-09-05",
+    "reason": "Emergency client site visit last minute flight",
+    "status": "APPROVED"
+  },
+  {
+    "approval_id": "APP-2026-003",
+    "employee_id": "EMP002",
+    "employee_name": "Ananya Sharma",
+    "category": "COURSE",
+    "max_approved_amount": 20000.0,
+    "approved_by": "Amit Varma",
+    "approval_date": "2026-09-10",
+    "reason": "AWS Cloud Solutions Architect certification course for engineering lead role",
+    "status": "APPROVED"
+  },
+  {
+    "approval_id": "APP-2026-004",
+    "employee_id": "EMP002",
+    "employee_name": "Ananya Sharma",
+    "category": "SOFTWARE_LICENSE",
+    "max_approved_amount": 10000.0,
+    "approved_by": "Amit Varma",
+    "approval_date": "2026-09-12",
+    "reason": "JetBrains developer IDE tools suite license for team development",
+    "status": "APPROVED"
+  }
+]

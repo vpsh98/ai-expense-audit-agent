@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1217.9575 1057.8" width="1217.9575" height="1057.8" style="--bg:#1F1F1F;--fg:#CCCCCC;--line:#CCCCCC;--accent:#0078D4;--muted:#CCCCCCCC;--surface:#181818;--border:#CCCCCC;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<g class="subgraph" data-id="ADK_Orchestration" data-label="Google ADK Multi-Agent Orchestration Layer">
+  <rect x="43.459" y="369.3" width="743.961" height="113.80000000000001" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="43.459" y="369.3" width="743.961" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="55.459" y="383.3" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Google ADK Multi-Agent Orchestration Layer</text>
+</g>
+<g class="subgraph" data-id="Deterministic_Tools" data-label="Deterministic Tools &amp; Repositories (Python / Non-Hallucinating)">
+  <rect x="442.4878500000001" y="812.9" width="732.8459999999999" height="204.9" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="442.4878500000001" y="812.9" width="732.8459999999999" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="454.4878500000001" y="826.9" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Deterministic Tools &amp; Repositories (Python / Non-Hallucinating)</text>
+</g>
+<polyline class="edge" data-from="User" data-to="RootAgent" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Natural Language Claim or CSV" points="388.59215,76.9 388.59215,193.2" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="RootAgent" data-to="CourseAgent" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="transfer_to_agent('CourseAgent')" points="290.19935,247 290.19935,283 124,283 124,351.3 128.2285,351.3 128.2285,413.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="RootAgent" data-to="WfhAgent" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="transfer_to_agent('WfhSetupAgent')" points="421.38975,247 421.38975,283 532.952,283 532.952,351.3 524.885,351.3 524.885,413.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="RootAgent" data-to="TravelAgent" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="transfer_to_agent('TravelAgent')" points="486.98494999999997,247 486.98494999999997,271 715.5159999999998,271 715.5159999999998,351.3 701.1685,351.3 701.1685,413.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="RootAgent" data-to="SoftwareAgent" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="transfer_to_agent('SoftwareLicenseAgent')" points="355.79455,247 355.79455,283 326.154,283 326.154,351.3 321.9255,351.3 321.9255,413.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CourseAgent" data-to="ToolPolicy" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="1. Query Limits" points="169.4902,467.1 169.49020000000002,645.1 306.06246666666675,645.1 306.06246666666675,770.9 501.5163500000001,770.9 501.51635000000005,916.9 855.60565,916.9 855.60565,964.8999999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CourseAgent" data-to="ToolApproval" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="2. Check if &gt; ₹10k" points="114.4746,467.1 114.4746,738.6 213.1924666666667,738.6 213.1924666666667,782.9 491.5163500000001,782.9 491.51635000000005,928.8999999999999 655.3878500000001,928.8999999999999 655.3878500000001,964.8999999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CourseAgent" data-to="ToolReceipt" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="3. Validate Receipt" points="86.9668,467.1 86.9668,750.6 110.50646666666667,750.6 110.50646666666667,794.9 481.5163500000001,794.9 481.51635000000005,940.8999999999999 485.69925000000006,940.8999999999999 485.69925000000006,964.8999999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="WfhAgent" data-to="ToolPolicy" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="1. Query Limit" points="550.8956666666667,467.1 550.8956666666667,561.1 974.9853333333335,561.1 974.9853333333335,794.9 937.2972500000001,794.9 937.2972499999998,964.8999999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="WfhAgent" data-to="ToolApproval" data-style="dotted" data-arrow-start="false" data-arrow-end="true" data-label="Approval Skipped" points="498.87433333333337,467.1 498.87433333333337,573.1 874.4219833333334,573.1 874.4219833333334,794.9 818.7626500000001,794.9 818.7626499999999,904.9 721.07385,904.9 721.07385,964.8999999999999" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="WfhAgent" data-to="ToolCalc" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="2. Calculate Excess" points="576.9063333333334,467.1 576.9063333333334,549.1 1072.5353333333335,549.1 1072.5353333333335,794.9 1083.16135,794.9 1083.1613499999999,952.8999999999999 1084.4371833333332,952.8999999999999 1084.4371833333332,964.8999999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="WfhAgent" data-to="ToolReceipt" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="3. Validate Receipt" points="472.8636666666667,467.1 472.8636666666667,597.1 767.7359833333335,597.1 767.7359833333335,794.9 723.28675,794.9 723.28675,880.9 540.12205,880.9 540.12205,964.8999999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="TravelAgent" data-to="ToolPolicy" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="701.1685000000001,467.1 701.1685000000001,568.1 916.87435,568.1 916.87435,964.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="TravelAgent" data-to="ToolApproval" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="701.1685000000001,467.1 701.1685000000001,568.1 704.65235,568.1 704.65235,964.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="TravelAgent" data-to="ToolCalc" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="701.1685000000001,467.1 701.1685000000001,568.1 1103.1613499999999,568.1 1103.1613499999999,964.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="TravelAgent" data-to="ToolReceipt" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="701.1685000000001,467.1 701.1685000000001,568.1 526.5163500000001,568.1 526.5163500000001,964.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="SoftwareAgent" data-to="ToolPolicy" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="321.9255,467.1 321.9255,568.1 916.87435,568.1 916.87435,964.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="SoftwareAgent" data-to="ToolApproval" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="321.9255,467.1 321.9255,568.1 704.65235,568.1 704.65235,964.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="SoftwareAgent" data-to="ToolReceipt" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="321.9255,467.1 321.9255,568.1 526.5163500000001,568.1 526.5163500000001,964.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CourseAgent" data-to="FinalReport" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="128.2285,467.1 128.2285,568.1 567.0209833333333,568.1 567.0209833333333,669.1" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="WfhAgent" data-to="FinalReport" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="524.885,467.1 524.885,568.1 567.0209833333333,568.1 567.0209833333333,669.1" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="TravelAgent" data-to="FinalReport" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="701.1685000000001,467.1 701.1685000000001,568.1 567.0209833333333,568.1 567.0209833333333,669.1" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="SoftwareAgent" data-to="FinalReport" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="321.9255,467.1 321.9255,568.1 567.0209833333333,568.1 567.0209833333333,669.1" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="User" data-to="RootAgent" data-label="Natural Language Claim or CSV">
+  <rect x="306.09215" y="119.9" width="164.962" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="388.57315" y="135.05" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Natural Language Claim or CSV</text>
+</g>
+<g class="edge-label" data-from="RootAgent" data-to="CourseAgent" data-label="transfer_to_agent('CourseAgent')">
+  <rect x="36" y="290" width="175.654" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="123.827" y="305.15" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">transfer_to_agent(&#39;CourseAgent&#39;)</text>
+</g>
+<g class="edge-label" data-from="RootAgent" data-to="WfhAgent" data-label="transfer_to_agent('WfhSetupAgent')">
+  <rect x="440.45199999999994" y="290" width="184.56399999999996" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="532.7339999999999" y="305.15" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">transfer_to_agent(&#39;WfhSetupAgent&#39;)</text>
+</g>
+<g class="edge-label" data-from="RootAgent" data-to="TravelAgent" data-label="transfer_to_agent('TravelAgent')">
+  <rect x="629.0159999999998" y="290" width="172.08999999999997" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="715.0609999999998" y="305.15" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">transfer_to_agent(&#39;TravelAgent&#39;)</text>
+</g>
+<g class="edge-label" data-from="RootAgent" data-to="SoftwareAgent" data-label="transfer_to_agent('SoftwareLicenseAgent')">
+  <rect x="215.65400000000002" y="290" width="220.79799999999994" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="326.053" y="305.15" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">transfer_to_agent(&#39;SoftwareLicenseAgent&#39;)</text>
+</g>
+<g class="edge-label" data-from="CourseAgent" data-to="ToolPolicy" data-label="1. Query Limits">
+  <rect x="264.56246666666675" y="721.6" width="82.99000000000001" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="306.05746666666676" y="736.75" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">1. Query Limits</text>
+</g>
+<g class="edge-label" data-from="CourseAgent" data-to="ToolApproval" data-label="2. Check if &gt; ₹10k">
+  <rect x="165.6924666666667" y="745.6" width="94.87000000000003" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="213.1274666666667" y="760.75" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">2. Check if &gt; ₹10k</text>
+</g>
+<g class="edge-label" data-from="CourseAgent" data-to="ToolReceipt" data-label="3. Validate Receipt">
+  <rect x="58.50646666666667" y="757.6" width="103.18600000000004" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="110.09946666666669" y="772.75" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">3. Validate Receipt</text>
+</g>
+<g class="edge-label" data-from="WfhAgent" data-to="ToolPolicy" data-label="1. Query Limit">
+  <rect x="935.9853333333335" y="733.6" width="77.05000000000001" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="974.5103333333335" y="748.75" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">1. Query Limit</text>
+</g>
+<g class="edge-label" data-from="WfhAgent" data-to="ToolApproval" data-label="Approval Skipped">
+  <rect x="822.9219833333334" y="733.6" width="102.59200000000001" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="874.2179833333334" y="748.75" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Approval Skipped</text>
+</g>
+<g class="edge-label" data-from="WfhAgent" data-to="ToolCalc" data-label="2. Calculate Excess">
+  <rect x="1017.0353333333334" y="721.6" width="110.31400000000001" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="1072.1923333333334" y="736.75" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">2. Calculate Excess</text>
+</g>
+<g class="edge-label" data-from="WfhAgent" data-to="ToolReceipt" data-label="3. Validate Receipt">
+  <rect x="715.7359833333335" y="733.6" width="103.18600000000004" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="767.3289833333336" y="748.75" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">3. Validate Receipt</text>
+</g>
+<g class="node" data-id="User" data-label="👤 User / Streamlit Web UI" data-shape="stadium">
+  <rect x="293.88765" y="40" width="189.40899999999996" height="36.900000000000006" rx="18.450000000000003" ry="18.450000000000003" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="388.59215" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">👤 User / Streamlit Web UI</text>
+</g>
+<g class="node" data-id="RootAgent" data-label="🎯 Google ADK Root Orchestrator
+&lt;b&gt;ExpenseRootOrchestrator&lt;/b&gt; (Gemini 3.5 Flash Lite)" data-shape="rectangle">
+  <rect x="224.60415" y="193.2" width="327.97599999999994" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="388.59214999999995" y="220.1" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="388.59214999999995" dy="-3.9000000000000012">🎯 Google ADK Root Orchestrator</tspan><tspan x="388.59214999999995" dy="16.900000000000002"><tspan font-weight="bold">ExpenseRootOrchestrator</tspan> (Gemini 3.5 Flash Lite)</tspan></text>
+</g>
+<g class="node" data-id="FinalReport" data-label="📊 AuditSummary &amp; Findings Report
+(Streamlit UI / Activity Feed / PPTX)" data-shape="rectangle">
+  <rect x="442.3059833333334" y="669.1" width="249.42999999999995" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="567.0209833333333" y="696" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="567.0209833333333" dy="-3.9000000000000012">📊 AuditSummary &amp; Findings Report</tspan><tspan x="567.0209833333333" dy="16.900000000000002">(Streamlit UI / Activity Feed / PPTX)</tspan></text>
+</g>
+<g class="node" data-id="CourseAgent" data-label="🎓 CourseAgent
+(Gemini LLM)" data-shape="rectangle">
+  <rect x="59.459" y="413.3" width="137.539" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="128.2285" y="440.2" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="128.2285" dy="-3.9000000000000012">🎓 CourseAgent</tspan><tspan x="128.2285" dy="16.900000000000002">(Gemini LLM)</tspan></text>
+</g>
+<g class="node" data-id="WfhAgent" data-label="🖥️ WfhSetupAgent
+(Gemini LLM)" data-shape="rectangle">
+  <rect x="446.853" y="413.3" width="156.06400000000002" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="524.885" y="440.2" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="524.885" dy="-3.9000000000000012">🖥️ WfhSetupAgent</tspan><tspan x="524.885" dy="16.900000000000002">(Gemini LLM)</tspan></text>
+</g>
+<g class="node" data-id="TravelAgent" data-label="✈️ TravelAgent
+(Gemini LLM)" data-shape="rectangle">
+  <rect x="630.9170000000001" y="413.3" width="140.503" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="701.1685000000001" y="440.2" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="701.1685000000001" dy="-3.9000000000000012">✈️ TravelAgent</tspan><tspan x="701.1685000000001" dy="16.900000000000002">(Gemini LLM)</tspan></text>
+</g>
+<g class="node" data-id="SoftwareAgent" data-label="💻 SoftwareLicenseAgent
+(Gemini LLM)" data-shape="rectangle">
+  <rect x="224.998" y="413.3" width="193.855" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="321.9255" y="440.2" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="321.9255" dy="-3.9000000000000012">💻 SoftwareLicenseAgent</tspan><tspan x="321.9255" dy="16.900000000000002">(Gemini LLM)</tspan></text>
+</g>
+<g class="node" data-id="ToolPolicy" data-label="📜 search_expense_policy" data-shape="rectangle">
+  <rect x="814.75985" y="964.9" width="204.22899999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="916.87435" y="983.35" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">📜 search_expense_policy</text>
+</g>
+<g class="node" data-id="ToolApproval" data-label="🛡️ check_approval" data-shape="rectangle">
+  <rect x="622.54485" y="964.9" width="164.21499999999997" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="704.65235" y="983.35" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">🛡️ check_approval</text>
+</g>
+<g class="node" data-id="ToolReceipt" data-label="🧾 read_receipt" data-shape="rectangle">
+  <rect x="458.4878500000001" y="964.9" width="136.057" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="526.5163500000001" y="983.35" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">🧾 read_receipt</text>
+</g>
+<g class="node" data-id="ToolCalc" data-label="🧮 calculate" data-shape="rectangle">
+  <rect x="1046.98885" y="964.9" width="112.34500000000001" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1103.1613499999999" y="983.35" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">🧮 calculate</text>
+</g>
+</svg>

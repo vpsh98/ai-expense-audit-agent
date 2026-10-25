@@ -1,0 +1,16 @@
+{
+  "receipt_id": "RCP-114",
+  "expense_id": "EXP-114",
+  "receipt_path": "receipts/exp_114.png",
+  "merchant": "Air India",
+  "date": "2026-09-21",
+  "amount": 22000.0,
+  "currency": "INR",
+  "tax_amount": 1980.0,
+  "line_items": [
+    {
+      "description": "Roundtrip flight tickets client onsite visit",
+      "price": 22000.0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "receipt_id": "RCP-101",
+  "expense_id": "EXP-101",
+  "receipt_path": "receipts/exp_101.png",
+  "merchant": "Bistro Central",
+  "date": "2026-09-10",
+  "amount": 1200.0,
+  "currency": "INR",
+  "tax_amount": 108.0,
+  "line_items": [
+    {
+      "description": "Executive Lunch Thali",
+      "price": 1092.0
+    }
+  ]
+}

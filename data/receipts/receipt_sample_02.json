@@ -1,0 +1,16 @@
+{
+  "receipt_id": "RCP-102",
+  "expense_id": "EXP-102",
+  "receipt_path": "receipts/exp_102.png",
+  "merchant": "Uber India",
+  "date": "2026-09-11",
+  "amount": 1800.0,
+  "currency": "INR",
+  "tax_amount": 90.0,
+  "line_items": [
+    {
+      "description": "Airport Ride fare",
+      "price": 1710.0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "receipt_id": "RCP-103",
+  "expense_id": "EXP-103",
+  "receipt_path": "receipts/exp_103.png",
+  "merchant": "Taj Lands End",
+  "date": "2026-09-11",
+  "amount": 7500.0,
+  "currency": "INR",
+  "tax_amount": 1144.0,
+  "line_items": [
+    {
+      "description": "Deluxe Room Night Stay",
+      "price": 6356.0
+    }
+  ]
+}

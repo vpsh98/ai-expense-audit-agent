@@ -1,0 +1,102 @@
+[
+  {
+    "category": "Hotel",
+    "limit_amount": 8000.0,
+    "limit_unit": "per_night",
+    "currency": "INR",
+    "require_receipt": true,
+    "receipt_threshold": 500.0,
+    "description": "Hotel accommodation cap of ₹8,000 per night. Requires itemized bill."
+  },
+  {
+    "category": "Taxi",
+    "limit_amount": 3000.0,
+    "limit_unit": "per_trip",
+    "currency": "INR",
+    "require_receipt": true,
+    "receipt_threshold": 500.0,
+    "description": "Local transit and taxi cap of ₹3,000 per ride/trip."
+  },
+  {
+    "category": "Meals",
+    "limit_amount": 1500.0,
+    "limit_unit": "per_day",
+    "currency": "INR",
+    "require_receipt": true,
+    "receipt_threshold": 300.0,
+    "description": "Daily food & beverage cap of ₹1,500 per day."
+  },
+  {
+    "category": "Gifts",
+    "limit_amount": 5000.0,
+    "limit_unit": "per_instance",
+    "currency": "INR",
+    "require_receipt": true,
+    "receipt_threshold": 1000.0,
+    "description": "Client gifts & entertainment cap of ₹5,000 per client/event."
+  },
+  {
+    "category": "Flight",
+    "limit_amount": 25000.0,
+    "limit_unit": "per_flight",
+    "currency": "INR",
+    "require_receipt": true,
+    "receipt_threshold": 1000.0,
+    "description": "Domestic flight travel cap of ₹25,000 per booking."
+  },
+  {
+    "category": "COURSE",
+    "limit_amount": 25000.0,
+    "limit_unit": "per_course",
+    "currency": "INR",
+    "require_receipt": true,
+    "receipt_threshold": 0.0,
+    "approval_required_above": 10000.0,
+    "approval_required_by_default": true,
+    "description": "Professional training and certification courses. Prior manager approval mandatory when amount exceeds ₹10,000."
+  },
+  {
+    "category": "WFH_SETUP",
+    "limit_amount": 15000.0,
+    "limit_unit": "per_item",
+    "currency": "INR",
+    "require_receipt": true,
+    "receipt_threshold": 0.0,
+    "approval_required_above": null,
+    "approval_required_by_default": false,
+    "item_limits": {
+      "monitor": 15000.0,
+      "keyboard": 3000.0,
+      "mouse": 2000.0,
+      "ups": 5000.0,
+      "earphones": 3000.0,
+      "headphones": 5000.0,
+      "webcam": 4000.0,
+      "laptop stand": 2000.0,
+      "docking station": 8000.0
+    },
+    "description": "Employee work-from-home/home-office equipment (monitor ₹15,000, keyboard, mouse, UPS, webcam, etc.). Manager approval is not required by default."
+  },
+  {
+    "category": "TRAVEL",
+    "limit_amount": 25000.0,
+    "limit_unit": "per_trip",
+    "currency": "INR",
+    "require_receipt": true,
+    "receipt_threshold": 500.0,
+    "approval_required_above": 25000.0,
+    "approval_required_by_default": true,
+    "description": "Corporate business travel including flights, rail, transit, and lodging. Requires manager pre-approval above policy limits."
+  },
+  {
+    "category": "SOFTWARE_LICENSE",
+    "limit_amount": 10000.0,
+    "limit_unit": "per_license",
+    "currency": "INR",
+    "require_receipt": true,
+    "receipt_threshold": 0.0,
+    "approval_required_above": 5000.0,
+    "approval_required_by_default": true,
+    "description": "Developer tooling and corporate software licenses. Manager approval required when amount exceeds ₹5,000."
+  }
+]

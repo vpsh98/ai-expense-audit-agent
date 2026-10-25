@@ -1,0 +1,16 @@
+{
+  "receipt_id": "RCP-113",
+  "expense_id": "EXP-113",
+  "receipt_path": "receipts/exp_113.png",
+  "merchant": "Samsung Electronics",
+  "date": "2026-09-20",
+  "amount": 18500.0,
+  "currency": "INR",
+  "tax_amount": 1665.0,
+  "line_items": [
+    {
+      "description": "Samsung 34-inch UltraWide Curved Monitor for home office",
+      "price": 18500.0
+    }
+  ]
+}

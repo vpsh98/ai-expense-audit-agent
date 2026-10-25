@@ -1,0 +1,16 @@
+{
+  "receipt_id": "RCP-109",
+  "expense_id": "EXP-109",
+  "receipt_path": "receipts/exp_109.png",
+  "merchant": "Coursera Inc",
+  "date": "2026-09-16",
+  "amount": 8000.0,
+  "currency": "INR",
+  "tax_amount": 720.0,
+  "line_items": [
+    {
+      "description": "Python for Data Science Specialization Course",
+      "price": 8000.0
+    }
+  ]
+}

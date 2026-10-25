@@ -1,0 +1,17 @@
+expense_id,employee_id,employee_name,date,category,amount,currency,merchant,description,receipt_path,status
+EXP-101,EMP001,Rajesh Kumar,10-09-2026,Meals,1200,INR,Bistro Central,Client lunch meeting,receipts/exp_101.png,SUBMITTED
+EXP-102,EMP001,Rajesh Kumar,11-09-2026,Taxi,1800,INR,Uber India,Airport transfer,receipts/exp_102.png,SUBMITTED
+EXP-103,EMP001,Rajesh Kumar,11-09-2026,Hotel,7500,INR,Taj Lands End,Stay for conference,receipts/exp_103.png,SUBMITTED
+EXP-104,EMP003,Vikram Patel,12-09-2026,Hotel,12000,INR,The Oberoi Mumbai,Executive client stay,receipts/exp_104.png,SUBMITTED
+EXP-105,EMP002,Ananya Sharma,15-09-2026,Taxi,4500,INR,City Cabs,Intercity tech meeting transit,receipts/exp_105.png,SUBMITTED
+EXP-106,EMP005,Priya Nair,18-09-2026,Gifts,8000,INR,Royal Hampers,Diwali client appreciation gift,receipts/exp_106.png,SUBMITTED
+EXP-107,EMP001,Rajesh Kumar,10-09-2026,Meals,1200,INR,Bistro Central,Client lunch meeting,receipts/exp_101.png,SUBMITTED
+EXP-108,EMP004,Amit Varma,25-10-2026,Meals,1400,INR,Grand Cafe,Future dated dinner,receipts/exp_108.png,SUBMITTED
+EXP-109,EMP002,Ananya Sharma,16-09-2026,COURSE,8000,INR,Coursera,Python for Data Science certification,receipts/exp_109.png,SUBMITTED
+EXP-110,EMP002,Ananya Sharma,17-09-2026,COURSE,18000,INR,Amazon Web Services,AWS Certified Solutions Architect course,receipts/exp_110.png,SUBMITTED
+EXP-111,EMP001,Rajesh Kumar,18-09-2026,COURSE,15000,INR,Stanford Online,Executive Leadership Masterclass course,receipts/exp_111.png,SUBMITTED
+EXP-112,EMP002,Ananya Sharma,19-09-2026,WFH_SETUP,12000,INR,Dell India,Dell 24-inch Monitor for home office,receipts/exp_112.png,SUBMITTED
+EXP-113,EMP001,Rajesh Kumar,20-09-2026,WFH_SETUP,18500,INR,Samsung Electronics,Samsung 34-inch UltraWide monitor for home office,receipts/exp_113.png,SUBMITTED
+EXP-114,EMP001,Rajesh Kumar,21-09-2026,TRAVEL,22000,INR,Air India,Client onsite visit domestic flight,receipts/exp_114.png,SUBMITTED
+EXP-115,EMP002,Ananya Sharma,22-09-2026,SOFTWARE_LICENSE,8500,INR,JetBrains,JetBrains All Products annual software license,receipts/exp_115.png,SUBMITTED
+EXP-116,EMP001,Rajesh Kumar,23-09-2026,OTHER,5000,INR,Miscellaneous Services,Miscellaneous payment voucher for team items,receipts/exp_116.png,SUBMITTED

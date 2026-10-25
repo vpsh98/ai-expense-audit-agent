@@ -1,0 +1,16 @@
+{
+  "receipt_id": "RCP-111",
+  "expense_id": "EXP-111",
+  "receipt_path": "receipts/exp_111.png",
+  "merchant": "Stanford Online",
+  "date": "2026-09-18",
+  "amount": 15000.0,
+  "currency": "INR",
+  "tax_amount": 1350.0,
+  "line_items": [
+    {
+      "description": "Executive Leadership Masterclass Course Registration",
+      "price": 15000.0
+    }
+  ]
+}

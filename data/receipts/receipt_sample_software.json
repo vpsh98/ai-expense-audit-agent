@@ -1,0 +1,16 @@
+{
+  "receipt_id": "RCP-115",
+  "expense_id": "EXP-115",
+  "receipt_path": "receipts/exp_115.png",
+  "merchant": "JetBrains s.r.o.",
+  "date": "2026-09-22",
+  "amount": 8500.0,
+  "currency": "INR",
+  "tax_amount": 765.0,
+  "line_items": [
+    {
+      "description": "JetBrains All Products Pack annual license subscription",
+      "price": 8500.0
+    }
+  ]
+}
